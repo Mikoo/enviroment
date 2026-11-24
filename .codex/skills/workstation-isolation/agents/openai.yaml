@@ -1,0 +1,5 @@
+interface:
+  display_name: "Workstation Isolation"
+  short_description: "Host vs Venv vs Docker vs VM/Sandbox isolation and Windows/WSL2 PC hygiene."
+  brand_color: "#14B8A6"
+  default_prompt: "Use $workstation-isolation to plan a clean, non-contaminating setup for this app or stack."

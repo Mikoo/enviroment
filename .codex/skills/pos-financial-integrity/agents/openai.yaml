@@ -1,0 +1,5 @@
+interface:
+  display_name: "POS Financial Integrity"
+  short_description: "Atomic Postgres RPCs, integer cents math, and auth.uid() server audit."
+  brand_color: "#059669"
+  default_prompt: "Use $pos-financial-integrity to build atomic order/cash RPCs and cents helpers."

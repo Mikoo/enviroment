@@ -1,0 +1,5 @@
+interface:
+  display_name: "Tauri v2 Cross-Platform"
+  short_description: "SvelteKit SPA + Tauri v2 desktop/mobile, Zero-Idle FPS, Plugin Mode Registry."
+  brand_color: "#EA580C"
+  default_prompt: "Use $tauri-v2-crossplatform to configure Tauri v2 windows, Zero-Idle, and mode plugins."

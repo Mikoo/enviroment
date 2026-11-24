@@ -1,0 +1,5 @@
+interface:
+  display_name: "Resilient Python Services"
+  short_description: "Raw-byte HMAC, FastAPI funnel, convergent AWS/SQS workers, async JSON logs."
+  brand_color: "#3B82F6"
+  default_prompt: "Use $resilient-python-services to build or audit FastAPI webhooks and SQS workers."

@@ -1,0 +1,5 @@
+interface:
+  display_name: "Dense UI 1366x768"
+  short_description: "650px viewport heuristics, Zero-CLS skeletons, Tailwind v4 colorMap, 60fps swipe."
+  brand_color: "#7C3AED"
+  default_prompt: "Use $dense-ui-1366x768 to optimize layouts for 1366x768 screens and 60fps gestures."

@@ -1,0 +1,5 @@
+interface:
+  display_name: "Nombre Visible del Skill"
+  short_description: "Descripción corta (< 80 caracteres) para UI de Codex."
+  brand_color: "#17B26A"
+  default_prompt: "Usa $<nombre-del-skill> para ..."

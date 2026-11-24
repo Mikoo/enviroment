@@ -1,0 +1,5 @@
+interface:
+  display_name: "Cross-AI Repo Audit"
+  short_description: "Deep source-verified repository analysis and pattern/skill extraction."
+  brand_color: "#8B5CF6"
+  default_prompt: "Use $cross-ai-repo-audit to analyze this repository deeply and extract reusable patterns."

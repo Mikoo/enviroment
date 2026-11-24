@@ -1,0 +1,11 @@
+# Fragmento recomendado para ~/.gitconfig en Windows para evitar drift de CRLF y rutas largas.
+[core]
+	autocrlf = input
+	longpaths = true
+	fscache = true
+[init]
+	defaultBranch = main
+[pull]
+	rebase = false
+[fetch]
+	prune = true

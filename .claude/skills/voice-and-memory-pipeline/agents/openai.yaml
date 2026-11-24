@@ -1,0 +1,5 @@
+interface:
+  display_name: "Voice & Memory Pipeline"
+  short_description: "WebAudio multi-codec, Silero VAD 600ms, Groq STT/LLM JSON, 3-tier memory."
+  brand_color: "#F59E0B"
+  default_prompt: "Use $voice-and-memory-pipeline to configure cross-browser voice capture and 3-tier memory."

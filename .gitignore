@@ -1,0 +1,22 @@
+# OS & editors
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+.vscode/*
+!.vscode/extensions.json
+
+# Local machine profile & private logs (keep personal specs/logs out of public repo)
+machine/LOCAL_PC_PROFILE.md
+logs/
+*.log
+*.tmp
+.env
+.env.*
+!.env.example
+
+# Node / Python scratch artifacts
+node_modules/
+__pycache__/
+.venv/

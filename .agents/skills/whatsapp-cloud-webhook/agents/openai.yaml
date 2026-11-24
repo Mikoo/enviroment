@@ -1,0 +1,5 @@
+interface:
+  display_name: "WhatsApp Cloud Webhook"
+  short_description: "Meta WhatsApp Cloud API Edge Functions, HMAC verification, and template cost control."
+  brand_color: "#16A34A"
+  default_prompt: "Use $whatsapp-cloud-webhook to implement Meta webhook handlers and template notifications."

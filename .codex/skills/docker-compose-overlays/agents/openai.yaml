@@ -1,0 +1,5 @@
+interface:
+  display_name: "Docker Compose Overlays"
+  short_description: "Modular COMPOSE_FILE overlays, Windows separator fix, and idempotent setup.sh."
+  brand_color: "#0EA5E9"
+  default_prompt: "Use $docker-compose-overlays to structure compose overlays and idempotent setup scripts."

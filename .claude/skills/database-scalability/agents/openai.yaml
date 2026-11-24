@@ -1,0 +1,5 @@
+interface:
+  display_name: "Database Scalability"
+  short_description: "Postgres/Supabase UUIDv7, JSONB bucketing, and atomic write coalescing."
+  brand_color: "#2563EB"
+  default_prompt: "Use $database-scalability to design high-write Postgres tables and atomic flush RPCs."
