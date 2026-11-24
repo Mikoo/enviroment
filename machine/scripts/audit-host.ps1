@@ -49,7 +49,7 @@ if (Get-Command docker -ErrorAction SilentlyContinue) {
 Write-Host "`n=== 4. Cross-AI Global Skill Locations ===" -ForegroundColor Cyan
 $badGlobalJson = Join-Path $env:USERPROFILE ".gemini\config\skills.json"
 if (Test-Path $badGlobalJson) {
-  Write-Host "[WARN] Found $badGlobalJson — Antigravity ignores global skills.json! Use sync-skills.ps1 -Global instead." -ForegroundColor Red
+  Write-Host "[WARN] Found $badGlobalJson -- Antigravity ignores global skills.json! Use sync-skills.ps1 -Global instead." -ForegroundColor Red
 }
 
 $skillDirs = @(

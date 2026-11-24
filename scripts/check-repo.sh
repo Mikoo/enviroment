@@ -118,10 +118,18 @@ for sdir in skill_dirs:
     if f"`{sdir.name}`" not in web_index:
         errors.append(f"00_WEB_CHAT_INDEX.md: missing skill entry '{sdir.name}'")
 
+# Ensure all PowerShell scripts are pure ASCII (prevents Windows PowerShell 5.1 ANSI smart-quote parse errors)
+for ps_path in sorted(root.rglob("*.ps1")):
+    ps_bytes = ps_path.read_bytes()
+    try:
+        ps_bytes.decode("ascii")
+    except UnicodeDecodeError as exc:
+        errors.append(f"{ps_path.relative_to(root)}: non-ASCII byte at offset {exc.start} (keep .ps1 files pure ASCII)")
+
 if errors:
     for e in errors:
         print(f"ERROR: {e}", file=sys.stderr)
     sys.exit(1)
 
-print(f"OK: Validated {len(skill_dirs)} skills, frontmatter rules, openai.yaml, web-chat parity, and relative links.")
+print(f"OK: Validated {len(skill_dirs)} skills, frontmatter rules, openai.yaml, web-chat parity, PS1 ASCII, and relative links.")
 EOF

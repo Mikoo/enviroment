@@ -70,7 +70,7 @@ foreach ($mirror in $RepoMirrors) {
 if ($Global) {
   $badJson = Join-Path $env:USERPROFILE ".gemini\config\skills.json"
   if (Test-Path $badJson) {
-    Write-Host "WARNING: Found $badJson — Antigravity ignores global skills.json. Consider removing it." -ForegroundColor Yellow
+    Write-Host "WARNING: Found $badJson -- Antigravity ignores global skills.json. Consider removing it." -ForegroundColor Yellow
   }
 
   $GlobalTargets = @(
